@@ -12,7 +12,6 @@
 
 int main() {
 
-// iphone 11 ou Xr
 	int opcao;
 	
 	printf("\n\t**************** / Menu do Sistema / \n\n");
