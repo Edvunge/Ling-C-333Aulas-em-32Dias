@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /*
 	1) Elabore um programa em C para ler do teclado um valor inteiro entre 1 e 10 e apresentar a
 		tabuada. Exemplo:
@@ -18,7 +17,6 @@
 		7 * 9 = 63
 		7 * 10 = 70
 */
-
 int main() {
 	
 	int i, num;
