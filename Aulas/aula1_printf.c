@@ -9,6 +9,5 @@ int main() {
 	
 	printf("\nValor retornado: %d", printf("Bom") );
 	
-	// não use o System("pause");
 	return 0;
 }
