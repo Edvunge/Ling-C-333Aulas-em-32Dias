@@ -15,6 +15,7 @@ int main() {
 	
 	char letras[100];
 	char vogais [5] = {'a','e','i','o','u'};
-	
+	float notas[] = {2.3, 33.4 ,43.4};
+	 
 	return 0;
 }

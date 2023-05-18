@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /*
-	Aula 103:  como gerar numeros aleatorios para preencher um vetor?
+	Aula 104:  como gerar numeros aleatorios dentro de um intervalo?
 */
 int main() {
 
@@ -12,7 +12,7 @@ int main() {
     srand(time(NULL));
 
     for(i = 0; i < 10; i++)
-        num2[i] = rand();
+        num2[i] = rand() % 100;
 
     printf("\n\n");
     for(i = 0; i < 10; i++)

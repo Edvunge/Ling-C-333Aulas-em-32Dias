@@ -4,7 +4,6 @@
 /*
 	Aula 101:  como preencher um vetor por meio do teclado?
 */
-
 int main() {
 
     int i;

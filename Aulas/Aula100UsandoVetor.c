@@ -4,7 +4,6 @@
 /*
 	Aula 100:  como imprimir o conteudo de um vetor?
 */
-
 int main() {
 	
 		int i;
