@@ -1,0 +1,14 @@
+1. Faça um programa em C que imprima todos os números de 1 até 100.
+
+2. Faça um programa que imprima todos os números pares de 100 até 1.
+
+3. Faça um programa que imprima os múltiplos de 5, no intervalo de 1 até 500.
+
+4. Faça um programa em C que permita entrar com o nome, a idade e o sexo de 20
+pessoas. O programa deve imprimir o nome da pessoa se ela for do sexo masculino
+e tiver mais de 21 anos.
+
+5. Sabendo-se que a unidade lógica e aritmética calcula o produto através de somas
+sucessivas, crie um programa que calcule o produto de dois números inteiros
+lidos. Suponha que os números lidos sejam positivos e que o multiplicando seja
+menor do que o multiplicador.
