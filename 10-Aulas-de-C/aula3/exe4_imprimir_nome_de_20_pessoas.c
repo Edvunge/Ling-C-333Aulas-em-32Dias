@@ -11,18 +11,23 @@ int main(void){
     char sexo, nome[15];
     int idade, i;
 
-    /*for(int i = 0; i < 5; i++){
+    for(i = 0; i <= 3; i++) {
         printf("\nDigite o seu nome: ");
         fgets(nome, 15, stdin);
-    }*/
 
-    while(i = 0; i < 20) {
-        if(sexo == 'm' && idade > 21){
-            printf("\nO nome da pessoa: %s",nome);
+        printf("\nDigite a sua idade: ");
+        scanf("%d", &idade);
+
+        printf("\nDigite o sexo (m/f): ");  
+        scanf(" %c", &sexo);  
+
+        if (sexo == 'm' && idade > 21) {
+            printf("\nO nome da pessoa: %s", nome);
         }
-        i++;
-    } 
+        
+        // Limpar o buffer do teclado
+        while (getchar() != '\n');
+    }
     
-
     return (0);
 }
