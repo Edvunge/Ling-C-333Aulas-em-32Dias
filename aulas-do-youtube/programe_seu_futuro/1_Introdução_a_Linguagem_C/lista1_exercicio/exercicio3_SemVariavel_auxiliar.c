@@ -4,6 +4,7 @@
 3) Faça um programa em C para trocar o valor de duas variáveis inteiras sem utilizar nenhuma
 variável auxiliar.
 */
+
 int main(void) {
 	int a, b;
 	
@@ -20,3 +21,4 @@ int main(void) {
 	printf("a = %d , b = %d",a ,b);
 	return 0;
 }
+
