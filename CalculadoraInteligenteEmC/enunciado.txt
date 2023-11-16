@@ -1,0 +1,23 @@
+A ideia deste exercicio é criar uma calculadora com todas 
+estas funçoes.
+Calculadora inteligente
+Adição (feito)
+Subtração (feito)
+Multiplicação (feito)
+Divisão (feito)
+Módulo de um número 
+Sucessor & antecessor 
+Resolver eq.1 e 2 graus 
+Potência de um número 
+Raiz quadrada de um número
+Par ou ímpar
+Números primos
+Tabuada
+Fatorial de um número
+Contagem crescente de 1 a 100
+Contagem decrescente 100 & 1
+Exponencial de um número
+Radiciação
+..
+..
+..
