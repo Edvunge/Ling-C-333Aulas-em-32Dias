@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "aula101_ComoLerVetorPeloTeclado.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
