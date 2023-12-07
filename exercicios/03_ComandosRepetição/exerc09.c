@@ -7,10 +7,16 @@ e depois imprima os N primeiros numeros naturais ımpares.
 */
 
 int main(void) {
-    int e = 0, menor = 0, maior = 0;
+    int n = 0;
 
-    printf("Digite um valor de N\n");
+    printf("\nDigite um valor de N: ");
+    scanf("%d",&n);
 
+    for(int e = 0; e <= n; e++) {
+        if(e % 2 != 0) {
+            printf(" %d ",e);
+        }
+    }
     
     return (0);
 }
