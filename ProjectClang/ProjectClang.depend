@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1690375689 source:/home/edvaldo/Projetos/Linguagem/Ling-C-333Aulas-em-32Dias/ProjectClang/main.c
-	<stdio.h>
-	<stdlib.h>
-
-1690376050 source:/home/edvaldo/Projetos/Linguagem/Ling-C-333Aulas-em-32Dias/ProjectClang/ex1_imprimir_um_num.c
-	<stdio.h>
-	<stdlib.h>
-
