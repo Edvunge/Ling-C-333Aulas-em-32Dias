@@ -8,17 +8,21 @@ tamanho 10 X 10. Ao final, imprima todos os elementos.
 int main(void) {
     int mat[10][10];
 
+    // Preenchendo a matriz
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
-            printf("Digite um numero: \n");
-            scanf("%d",&mat[i][j]);
+            printf("Digite um numero: ");
+            scanf("%d", &mat[i][j]);
         }
     }
 
+    // Imprimindo os elementos da matriz
+    printf("\nElementos da matriz:\n");
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
-            printf("O elemento numero: %d \n",mat[i][j]);
+            printf("%d\t", mat[i][j]);
         }
-    }      
+        printf("\n");  // Nova linha para separar as linhas da matriz
+    }     
     return (0);
 }
