@@ -12,16 +12,14 @@ int main() {
     scanf("%d",&idade);
 
     printf("\nInsira a sua altura: ");
-    scanf("%f",&altura);
+    scanf("%lf",&altura);
+    getchar();
 
     printf("\nInsira o seu peso: ");
     scanf("%f",&peso);
 
     printf("\nInsira a primeiraLetraDoNome: ");
-    scanf("%c ",&primeiraLetraDoNome);
-
-    // printf - saida da tela
-    // scanf - entrada de dados
+    scanf(" %c",&primeiraLetraDoNome);
 
     printf("\nIdade: %d ",idade);
     printf("\nAltura sera: %.1f",altura);
