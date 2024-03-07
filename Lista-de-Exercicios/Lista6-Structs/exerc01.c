@@ -24,17 +24,21 @@ typedef struct {
     int ano;
 } Data;
 
-typedef struct {
+typedef struct comprimisso{
     Data data;
     Horario horario;
-} Compromisso;
+    char jantar[45];
+} COMPRIMISSO;
+
+void apointment (struct comprimisso comp) {
+    printf("Data: %d/%s/%d \n",comp.data.dia ,comp.data.mes ,comp.data.ano);
+    printf("Horario: [%d:%d.%d]\n",comp.horario.hora ,comp.horario.minutos ,comp.horario.segundos);
+    printf("Nesse Dia, %s \n",comp.jantar);
+}
 
 int main(void) {
-    struct Horario hour { 10, 20, 05 };
-    struct Data date {10, "julho", 2021};
-    struct Comprimisso jantarRomantico;
-
-    printf("Voce tera um jantar romantico, no dia: %d", jantarRomantico.data.dia);
-
+    
+    struct comp saidaMarcada = {{10, "julho", 2021}, {20, 10, 09}, "Jantar Romantico"}
+    apointment(saidaMarcada);
     return (0);
 }
