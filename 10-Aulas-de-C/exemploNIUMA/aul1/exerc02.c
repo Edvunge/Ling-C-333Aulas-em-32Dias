@@ -17,4 +17,5 @@ int main() {
     printf("\n%d + %d = %d ",x ,y, soma);
    
     return (0);
+    system("PAUSE");
 }
