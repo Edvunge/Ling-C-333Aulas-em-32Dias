@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+
 int main(void) {
     int a = 10, b;
     char c[] = "abc", *d;
@@ -11,6 +13,7 @@ int main(void) {
     printf("%d %d\n",a ,b);
 
     d = c;
+
 
     c[1] = 'x';
 
