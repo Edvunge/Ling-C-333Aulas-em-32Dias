@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Conectar MySQL Linguagem C Visual Studio</title>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="main" style="max-width:900px; margin:auto;border:1px solid silver;padding:10px;">
+      <h1 id="como-conectar-ao-mysql-com-c-no-visual-studio" style="border-bottom: 1px solid rgb(215, 221, 227); color: #24292f; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; line-height: 1.25; margin-bottom: 16px; margin-left: 0px; margin-right: 0px; margin-top: 0px !important; padding-bottom: 0.3em;">Como Conectar ao MySQL com C no Visual Studio</h1>
+      <ol style="color: #24292f; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; margin-bottom: 16px; margin-top: 0px; padding-left: 2em;">
+        <li>Instale o MySQL conforme os passos descritos&nbsp;<a href="https://terminalroot.com.br/2023/05/como-instalar-o-apache-php-8-e-mysql-no-windows.html#mysql" style="color: #0969da; text-decoration-line: none;">nesse link</a>.</li>
+      </ol>
+      <blockquote style="border-left: 0.25em solid rgb(208, 215, 222); color: #57606a; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; margin: 0px 0px 16px; padding: 0px 1em;">
+        <p style="margin-bottom: 0px; margin-top: 0px;">Confirme a instalação testando com o comando:&nbsp;<code style="background-color: rgba(175, 184, 193, 0.2); border-radius: 6px; font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; margin: 0px; padding: 0.2em 0.4em; white-space-collapse: break-spaces;">CREATE DATABASE terminalroot</code>, pois iremos testar com esse nome de banco de dados. Pra logar no MySQL via CMD, PowerShell ou Windows Terminal, logue:&nbsp;<code style="background-color: rgba(175, 184, 193, 0.2); border-radius: 6px; font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; margin: 0px; padding: 0.2em 0.4em; white-space-collapse: break-spaces;">mysql -u root -p"SUA_SENHA" -D "terminalroot" -e "SELECT * FROM info"</code>:&nbsp;<em>MeuBanco90@</em>.</p>
+      </blockquote>
+      <ol start="2" style="color: #24292f; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; margin-bottom: 0px !important; margin-top: 0px; padding-left: 2em;">
+        <li>Crie um projeto no Visual Studio</li>
+        <li style="margin-top: 0.25em;">Escolha Release e x64</li>
+        <li style="margin-top: 0.25em;">Adicionar &gt; novo item &gt;&nbsp;<code style="background-color: rgba(175, 184, 193, 0.2); border-radius: 6px; font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; margin: 0px; padding: 0.2em 0.4em; white-space-collapse: break-spaces;">main.c</code></li>
+        <li style="margin-top: 0.25em;">Copia o arquivo de teste e altere a senha e o nome do banco de dados conforme vc desejar</li>
+        <li style="margin-top: 0.25em;">Propriedades(x64) &gt; C/C++ &gt; Geral &gt; Diretórios de Inclusão Adicionais &gt;&nbsp;<code style="background-color: rgba(175, 184, 193, 0.2); border-radius: 6px; font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; margin: 0px; padding: 0.2em 0.4em; white-space-collapse: break-spaces;">C:\Program Files\MySQL\MySQL Server 8.0\include</code></li>
+        <li style="margin-top: 0.25em;">Vinculador &gt; Geral &gt; Diretório de Biblioteca Adicionais &gt;&nbsp;<code style="background-color: rgba(175, 184, 193, 0.2); border-radius: 6px; font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; margin: 0px; padding: 0.2em 0.4em; white-space-collapse: break-spaces;">C:\Program Files\MySQL\MySQL Server 8.0\lib</code></li>
+        <li style="margin-top: 0.25em;">Entrada &gt; Dependências Adicionais &gt;&nbsp;<code style="background-color: rgba(175, 184, 193, 0.2); border-radius: 6px; font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; margin: 0px; padding: 0.2em 0.4em; white-space-collapse: break-spaces;">libmysql.lib</code></li>
+        <li style="margin-top: 0.25em;">Copiar o&nbsp;<code style="background-color: rgba(175, 184, 193, 0.2); border-radius: 6px; font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; margin: 0px; padding: 0.2em 0.4em; white-space-collapse: break-spaces;">C:\Program Files\MySQL\MySQL Server 8.0\lib\libmysql.dll</code>&nbsp;para dentro do seu projeto.</li>
+        <li style="margin-top: 0.25em;">Depurar para ver se está tudo certo!</li>
+      </ol>      
+    </div>
+
+  </body>
+</html>
