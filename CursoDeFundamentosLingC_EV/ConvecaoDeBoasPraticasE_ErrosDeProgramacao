@@ -1,0 +1,169 @@
+3.1 - Estabelecer uma convenção, de boas práticas de programação.
+
+
+Erro comum de programação 2.4
+Usar uma letra maiúscula onde deveria ter sido usada uma minúscula (por exemplo, digitar Main no lugar de main).
+
+
+Dica de prevenção de erro 2.1
+Evite identificadores que comecem por sublinhado (_) simples ou duplo, porque aqueles gerados pelo compilador e
+os da biblioteca-padrão podem usar nomes semelhantes.Introdução à programação em C
+
+
+Dica de portabilidade 2.1
+Use identificadores compostos por, no máximo, 31 caracteres. Isso ajuda a garantir a portabilidade e pode evitar
+alguns erros de programação sutis.
+
+
+Boa prática de programação 2.5
+A escolha de nomes significativos de variáveis favorecerá a elaboração de um programa ‘autodocumentado’, isto
+é, que necessitará de menos comentários.
+
+
+Boa prática de programação 2.6
+A primeira letra de um identificador usado como um nome de variável simples deverá ser uma letra minúscula.
+Adiante, atribuiremos um significado especial aos identificadores que começam com letra maiúscula e aos que
+usam somente letras maiúsculas.
+
+
+Boa prática de programação 2.7
+Nomes de variável com várias palavras podem ajudar a tornar um programa mais legível. Evite juntar as palavras
+como em comissõestotais. Em vez disso, separe as palavras com sublinhado, como em comissões_totais,
+ou, se preferir juntar as palavras, inicie cada uma, a partir da segunda, com uma letra maiúscula, como em
+comissõesTotais. O segundo estilo é o melhor.
+
+
+Boa prática de programação 2.9
+Inclua um espaço após cada vírgula, para que os programas fiquem mais legíveis.
+
+
+Boa prática de programação 2.10
+Insira espaços dos dois lados de um operador binário. Isso faz com que o operador se destaque, tornando o progra-
+ma mais legível.
+
+
+Erro comum de programação 2.6
+Um cálculo em uma instrução de atribuição deve ficar do lado direito do operador =. É um erro de compilação
+colocar um cálculo no lado esquerdo de um operador de atribuição.
+
+
+Erro comum de programação 2.7
+Esquecer de uma ou de ambas as aspas para a string de controle de formato em um printf ou scanf.
+
+
+Erro comum de programação 2.8
+Esquecer do % em uma especificação de conversão na string de controle de formato de um printf ou scanf.
+
+
+Erro comum de programação 2.9
+Colocar uma sequência de escape como \n fora da string de controle de formato de um printf ou scanf.
+
+
+Erro comum de programação 2.10
+Esquecer de incluir as expressões cujos valores devem ser impressos pelo printf contendo especificadores de conversão.
+
+
+Erro comum de programação 2.11
+Não fornecer um especificador de conversão quando isso for necessário, em uma string de controle de formato de
+printf, para exibir o valor de uma expressão.
+
+
+Erro comum de programação 2.12
+Colocar dentro da string de controle de formato a vírgula que deveria separar essa string das expressões a serem
+exibidas.
+
+
+Erro comum de programação 2.13
+Usar o especificador de conversão de formato incorreto ao ler dados com scanf.
+
+
+Erro comum de programação 2.14
+Esquecer de colocar (&) antes de uma variável em uma instrução scanf quando isso deveria ocorrer.
+
+
+
+operadores relacionais e de igualdade -------------------------------------------------------------------------
+
+
+
+Erro comum de programação 2.17
+Ocorrerá um erro de sintaxe se os dois símbolos em um dos operadores ==, !=, >= e <= forem separados
+por espaços.
+ 
+ 
+Erro comum de programação 2.18
+Ocorrerá um erro de sintaxe se os dois símbolos em um dos operadores !=, >= e <= forem invertidos, como em
+=!, => e =<, respectivamente.
+
+
+Erro comum de programação 2.19
+Confundir o operador de igualdade == com o operador de atribuição.
+
+
+Erro comum de programação 2.20
+Colocar ponto e vírgula imediatamente à direita do parêntese à direita após a condição em uma estrutura if.
+
+
+Boa prática de programação 2.12
+Recue a(s) instrução(ões) no corpo de uma estrutura if.
+
+
+Boa prática de programação 2.13
+Insira uma linha em branco antes e depois de cada estrutura if em um programa, por questão de legibilidade.
+
+
+Boa prática de programação 2.14
+Embora seja permitido, não deve haver mais de uma instrução por linha em um programa.
+
+
+Erro comum de programação 2.21
+Incluir vírgulas (quando nenhuma é necessária) entre os especificadores de conversão na string de controle de
+formato de uma instrução scanf.
+
+CAP03------------------------------------------------------------
+
+Boa prática de programação 3.1
+Aplicar consistentemente convenções razoáveis de recuo faz com que a legibilidade do programa seja muito maior.
+Sugerimos uma marca de tabulação com um tamanho fixo de cerca de 1/4 de polegada, ou três espaços, por nível
+de recuo.
+
+Boa prática de programação 3.2
+Frequentemente, o pseudocódigo é usado na ‘criação’ de um programa durante o processo de planejamento. Depois
+disso, o programa em pseudocódigo é convertido em C.
+
+Erro comum de programação 3.1
+Esquecer-se de uma ou de ambas as chaves que delimitam uma instrução composta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

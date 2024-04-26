@@ -1,0 +1,168 @@
+1 -  Apresentação
+
+
+Olá Bem Vindos(as) ao Curso Programação em C
+O meu nome é Edvaldo Vunge e serei o vosso instrutor
+Sou um Programador Java , Já trabalhei com algumas tecnólogias e linguagens, 
+desde as mais conhecidas como Javascript e React,  como também as não tão conhecidas como O COBOL, JCL E DB2. 
+
+Sou um apaixonado por estudar Programação, as linguagens que mais me dedico em estudar e 
+dominar o maximo que posso, são a linguagem C e java, 
+sou um continuo aprendiz e isso me ajuda a continuar aprendendo.
+
+==================================================================================================================================================
+
+2 - Introdução
+2.1  História do C
+2.2  C vs Outras linguagens
+2.3  Porque C em 2024?
+2.4  Onde o C é usado
+
+
+2. Introdução
+
+A linguagem de programação C é um pilar fundamental no mundo da computação, 
+com uma história rica e uma presença contínua e relevante até os dias atuais. 
+Nesta introdução, exploraremos a trajetória histórica do C, 
+suas distinções em relação a outras linguagens, 
+as razões para sua relevância em 2024 e os diversos domínios onde ela continua a ser utilizada.
+
+
+2.1 História do C
+
+Desenvolvida por Dennis Ritchie na década de 1970, a linguagem C foi concebida como uma evolução do sistema operacional UNIX. 
+Sua sintaxe simples e poderosa logo a tornou popular entre os programadores, 
+contribuindo para o desenvolvimento de uma ampla gama de softwares e sistemas.
+
+
+2.2 C vs Outras linguagens
+
+Em um cenário onde linguagens de programação vêm e vão, o C mantém uma posição única. 
+Enquanto linguagens mais modernas surgiram com diferentes paradigmas e recursos, 
+o C continua a ser amplamente utilizado devido à sua eficiência, portabilidade e proximidade ao hardware.
+
+
+2.3 Porque C em 2024?
+
+Em 2024, com a proliferação de linguagens de alto nível e frameworks especializados, 
+alguns podem questionar a relevância contínua do C. 
+No entanto, sua presença persistente é justificada pela sua eficácia em cenários onde desempenho, 
+controle e acesso direto à memória são essenciais.
+
+
+2.4 Onde o C é usado
+
+O C está presente em uma variedade de aplicações, 
+desde sistemas operacionais e compiladores até dispositivos embarcados e jogos. 
+Sua flexibilidade e desempenho o tornam uma escolha popular em projetos que vão desde 
+o nível mais baixo da programação até o desenvolvimento de aplicativos de alto nível.
+==================================================================================================================================================
+
+3  - Como o C funciona 
+	3.1 - Estabelecer uma convenção, de boas práticas de programação.
+4  - Preparando o ambiente, hello world!
+5  - Comentando código em C
+6  - Variaveis e tipos de dados
+7  - Tipos de Operadores
+8  - Funções
+9  - Cabeçalhos ou headers
+10 - Constantes 
+11 - Conversões de tipos
+12 - Arrays
+13 - Trabalhando com inputs
+14 - Condicionais
+15 - Loops
+16 - Diretivas
+17 - Introdução a ponteiros
+18 - Ponteiros
+19 - Ponteiros da função
+20 - Argumento via linha de comando
+21 - Strings e alias para tipos
+22 - Estrutura de dados
+23 - Função recursivas
+24 - Tipos enumerados
+25 - Alocação de memória
+26 - Trabalhando com arquivos
+27 - Rodando via prompt cmd
+28 - O tipo estatico e o inline
+
+==================================================================================================================================================
+3  - Como o C funciona 
+
+1. Simplicidade e Eficiência: O C foi projetado para ser uma linguagem simples, com poucos recursos de alto nível e um mapeamento direto para instruções de máquina. Isso o torna uma linguagem eficiente, adequada para programação de baixo nível e sistemas de tempo real.
+
+2. Portabilidade: O C foi projetado para ser portátil entre diferentes sistemas de computador. 
+Isso significa que programas escritos em C podem ser compilados e executados em uma ampla variedade de plataformas, 
+desde sistemas Unix e Windows até sistemas embarcados.
+
+* Sintaxe Estruturada
+* Tipagem Estática
+* Gerenciamento de Memória
+* Ponteiro
+* Biblioteca Padrão
+
+Compilação: Os programas em C são traduzidos em linguagem de máquina por meio de um processo de compilação. 
+O compilador transforma o código-fonte em código objeto, que é então ligado para formar um executável final.
+
+==================================================================================================================================================
+4  - Preparando o ambiente, hello world!
+
+C é uma linguagem muito comum e é a linguagem de muitos aplicativos, como Windows, o interpretador Python, Git e muitos outros.
+
+C é uma linguagem compilada - o que significa que para executá-la, o compilador (por exemplo, GCC ou Visual Studio) deve pegar o código que escrevemos, processá-lo e então criar um arquivo executável. Este arquivo pode então ser executado e fará o que pretendemos que o programa faça.
+
+Nosso primeiro programa
+Todo programa C usa bibliotecas, que permitem executar as funções necessárias. Por exemplo, a função mais básica chamada printf, que é impressa na tela, é definida no arquivo de cabeçalho.stdio.h
+
+Para adicionar a capacidade de executar o printfcomando ao nosso programa, devemos adicionar a seguinte diretiva include à nossa primeira linha do código: #include <stdio.h>
+
+
+==================================================================================================================================================
+5  - Comentando código em C
+==================================================================================================================================================
+6  - Variaveis e tipos de dados
+==================================================================================================================================================
+7  - Tipos de Operadores
+==================================================================================================================================================
+8  - Funções
+==================================================================================================================================================
+9  - Cabeçalhos ou headers
+==================================================================================================================================================
+10 - Constantes 
+==================================================================================================================================================
+11 - Conversões de tipos
+==================================================================================================================================================
+12 - Arrays
+==================================================================================================================================================
+13 - Trabalhando com inputs
+==================================================================================================================================================
+14 - Condicionais
+==================================================================================================================================================
+15 - Loops
+==================================================================================================================================================
+16 - Diretivas
+==================================================================================================================================================
+17 - Introdução a ponteiros
+==================================================================================================================================================
+18 - Ponteiros
+==================================================================================================================================================
+19 - Ponteiros da função
+==================================================================================================================================================
+20 - Argumento via linha de comando
+==================================================================================================================================================
+21 - Strings e alias para tipos
+==================================================================================================================================================
+22 - Estrutura de dados
+==================================================================================================================================================
+23 - Função recursivas
+==================================================================================================================================================
+24 - Tipos enumerados
+==================================================================================================================================================
+25 - Alocação de memória
+==================================================================================================================================================
+26 - Trabalhando com arquivos
+==================================================================================================================================================
+27 - Rodando via prompt cmd
+==================================================================================================================================================
+28 - O tipo estatico e o inline
+
