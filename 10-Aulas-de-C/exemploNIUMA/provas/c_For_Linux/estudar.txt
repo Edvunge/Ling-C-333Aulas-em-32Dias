@@ -1,0 +1,4 @@
+FILE *fd = FOPEN("provaSOniuma.txt", "r");
+
+- operadores de incremento e decremento
+- funcoes com parametros
