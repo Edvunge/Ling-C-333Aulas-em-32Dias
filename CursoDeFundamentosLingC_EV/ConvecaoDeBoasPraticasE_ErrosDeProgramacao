@@ -134,8 +134,45 @@ disso, o programa em pseudocódigo é convertido em C.
 Erro comum de programação 3.1
 Esquecer-se de uma ou de ambas as chaves que delimitam uma instrução composta.
 
+Boa prática de programação 3.3
+Recuar ambos os comandos do corpo de uma estrutura if...else.
+
+Boa prática de programação 3.4
+Se existem vários níveis de recuo, cada nível deve ser recuado pelo mesmo espaço adicional.
+
+Erro comum de programação 3.1
+Esquecer-se de uma ou de ambas as chaves que delimitam uma instrução composta.
 
 
+Erro comum de programação 3.2
+Colocar um ponto e vírgula após a condição de uma estrutura if, como em ( nota >= 60 );, ocasiona um erro lógico
+nas estruturas if de seleção única e um erro de sintaxe nas estruturas if de seleção dupla.
+
+Dica de prevenção de erro 3.1
+Digitar as chaves de início e de fim das instruções compostas antes de digitar as instruções individuais dentro das
+chaves ajuda a evitar a omissão de uma ou de ambas as chaves, o que impede erros de sintaxe e erros lógicos (onde
+as duas chaves realmente forem necessárias).
+
+Erro comum de programação 3.3
+Não fornecer o corpo de uma estrutura while com uma ação que eventualmente fará com que a condição no while
+se torne falsa. Normalmente, essa estrutura de repetição nunca termina — esse erro é chamado de ‘loop infinito’.
+
+Erro comum de programação 3.4
+Escrever a palavra-chave while com um W maiúsculo, como em While (lembre-se de que C é uma linguagem que
+diferencia maiúsculas de minúsculas). Todas as palavras-chave reservadas de C, como while, if e else, contêm
+apenas letras minúsculas.
+
+
+Erro comum de programação 3.5
+Se um contador ou total não for inicializado, os resultados de seu programa provavelmente serão incorretos. Este é um
+exemplo de um erro lógico.
+
+Dica de prevenção de erro 3.2
+Inicialize todos os contadores e totais.
+
+
+Erro comum de programação 3.6
+Escolher um valor de sentinela que também seja um valor de dado legítimo.
 
 
 
