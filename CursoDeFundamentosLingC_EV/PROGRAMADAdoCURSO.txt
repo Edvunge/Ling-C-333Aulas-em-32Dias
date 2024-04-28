@@ -1,0 +1,10 @@
+1  Introdução a linguagem C
+2  Estrutura de Decisão
+3  Estrutura de Interação
+4  Vetores
+5  Matrizes
+6 Tipos de Dados Definidos Pelo Programador
+7  Funções
+8  Convecção de Código
+9  Ponteiros
+10  Alocação Dinamica de Memoria
