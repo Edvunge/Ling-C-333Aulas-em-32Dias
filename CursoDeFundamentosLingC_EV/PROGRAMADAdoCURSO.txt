@@ -7,4 +7,4 @@
 7  Funções
 8  Convecção de Código
 9  Ponteiros
-10  Alocação Dinamica de Memoria
+10  Alocação Dinamica de Memória
