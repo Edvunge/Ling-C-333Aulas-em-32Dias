@@ -1,0 +1,7 @@
+Type                Size                    Description
+-------------------------------------------------------------------------------------
+char                1 byte                  Used for characters or integer          |
+int                 2 or 4 bytes            Used for integer values                 |
+float               4 bytes                 Floating-point numbers                  |
+double              8 bytes                 Floating-point numbers                  |
+-------------------------------------------------------------------------------------

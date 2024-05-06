@@ -1,0 +1,7 @@
+A Brief History of C and the Standard
+
+Until the past few years, no absolute Standard for the C language existed.
+
+The C Programming Language, by Kernighan and Ritchie, served as a Standard, but most compiler manufacturers
+addend extinsions and did not follow all the specifications presented by Kernighan and Ritchie.
+
