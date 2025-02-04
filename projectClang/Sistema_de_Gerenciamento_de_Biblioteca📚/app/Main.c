@@ -1,15 +1,19 @@
 #include <stdio.h>
 
-/*
- - `void adicionarLivro();`  
-   - `void listarLivros();`  
-   - `void buscarLivro();`  
-   - `void removerLivro();` 
-*/
- void adicionarLivro();  
- void listarLivros();  
- void buscarLivro();  
- void removerLivro(); 
+// structs
+struct Livros {
+    char Titulo[12];  
+    char Autor[14];  
+    int  AnoDePublicacao;  
+    int  NumeroDePaginas; 
+};
+
+
+// functions
+void adicionarLivro();  
+void listarLivros();  
+void buscarLivro();  
+void removerLivro(); 
 
 int main(void) {
     int options;
