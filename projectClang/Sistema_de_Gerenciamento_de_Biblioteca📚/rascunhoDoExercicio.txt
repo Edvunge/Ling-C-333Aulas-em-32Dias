@@ -1,0 +1,34 @@
+MENU DE OPÇÕES:
+
+=== BIBLIOTECA DIGITAL ===
+1. Adicionar Livro
+2. Listar Livros
+3. Buscar Livro pelo Título
+4. Remover Livro
+5. Sair
+Escolha uma opção: 1
+
+Digite o título do livro: O Pequeno Príncipe
+Digite o nome do autor: Antoine de Saint-Exupéry
+Digite o ano de publicação: 1943
+Digite o número de páginas: 96
+Livro adicionado com sucesso!
+
+= = = = = = = = = = = = = = = = = = =
+
+1. Adicionar um novo livro
+2. Listar todos os livros cadastrados
+3. Buscar um livro pelo título
+4. Remover um livro do catálogo
+5. Sair do programa
+
+1. Adicionar um novo livro
+        Cada livro deve conter:
+            - Título  
+            - Autor  
+            - Ano de Publicação  
+            - Número de Páginas  
+2. Listar todos os livros cadastrados
+3. Buscar um livro pelo título
+4. Remover um livro do catálogo
+5. Sair do programa
