@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <string.h>
 
-// structs
+// =================================== structs ====================================
 struct Livros {
     char Titulo[12];  
     char Autor[14];  
@@ -9,15 +10,17 @@ struct Livros {
 };
 
 
-// functions
-void adicionarLivro();  
+// =================================== prototipes functions ====================================
+void adicionarLivro(Livros livros);  
 void listarLivros();  
 void buscarLivro();  
 void removerLivro(); 
 
+
 int main(void) {
     int options;
     int x;
+    struct Livros liv;
 
     do { 
         printf("=== BIBLIOTECA DIGITAL ===\n");
@@ -31,17 +34,9 @@ int main(void) {
 
         switch (options) {
         case 1: // adicionar livro
-            printf("Digite o título do livro:");
-            scanf("%",&);
-            printf("Digite o nome do autor:");
-            scanf("%",&);
-            printf("Digite o ano de publicação:");
-            scanf("%",&);
-            printf("Digite o número de páginas:");
-            scanf("%",&);
-            printf("Livro adicionado com sucesso!");
-
-            printf("opção 1: ");
+            printf("\nopção 1.1: ");
+            adicionarLivro(liv.AnoDePublicacao);
+            printf("\nopção 1.1: ");
             break;
         case 2:
             printf("opção 2: ");
@@ -66,8 +61,27 @@ int main(void) {
     } while(x != 5);
     return (0);
 }
+/*
+char Titulo[12];  
+char Autor[14];  
+int  AnoDePublicacao;  
+int  NumeroDePaginas; 
+*/
+// =================================== functions ====================================
+void adicionarLivro(Livros livros){
+    printf("\nDigite o título do livro: ");
+    scanf("%c ",&livros.Titulo);
+    printf("\nDigite o nome do autor:");
+    scanf("%c ",&livros.Autor);
+    printf("\nDigite o ano de publicação:");
+    scanf("%d ",&livros.AnoDePublicacao);
+    printf("\nDigite o número de páginas:");
+    scanf("%d ",&livros.NumeroDePaginas);
 
-void adicionarLivro();  
+    printf("\nTitulo do livro: %s", livros.Titulo);
+    printf("\nLivro adicionado com sucesso!");
+}
+
 void listarLivros();  
 void buscarLivro();  
 void removerLivro(); 
