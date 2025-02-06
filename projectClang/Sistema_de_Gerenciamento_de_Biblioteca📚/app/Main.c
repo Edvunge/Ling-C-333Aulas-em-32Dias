@@ -2,13 +2,12 @@
 #include <string.h>
 
 // =================================== structs ====================================
-struct Livros {
-    char Titulo[12];  
-    char Autor[14];  
+typedef struct {
+    char Titulo[50];  
+    char Autor[40];  
     int  AnoDePublicacao;  
     int  NumeroDePaginas; 
-};
-
+} Livros;
 
 // =================================== prototipes functions ====================================
 void adicionarLivro(Livros livros);  
@@ -20,7 +19,7 @@ void removerLivro();
 int main(void) {
     int options;
     int x;
-    struct Livros liv;
+    Livros liv;
 
     do { 
         printf("=== BIBLIOTECA DIGITAL ===\n");
@@ -34,9 +33,13 @@ int main(void) {
 
         switch (options) {
         case 1: // adicionar livro
-            printf("\nopção 1.1: ");
-            adicionarLivro(liv.AnoDePublicacao);
-            printf("\nopção 1.1: ");
+            // Pedindo entrada ao usuário
+            printf("Digite o título do livro: ");
+            fgets(liv.Titulo, sizeof(liv.Titulo), stdin);
+    
+            printf("Digite o ano do livro: ");
+            scanf(" %d", &liv.AnoDePublicacao);
+            adicionarLivro(liv);
             break;
         case 2:
             printf("opção 2: ");
@@ -69,16 +72,19 @@ int  NumeroDePaginas;
 */
 // =================================== functions ====================================
 void adicionarLivro(Livros livros){
-    printf("\nDigite o título do livro: ");
-    scanf("%c ",&livros.Titulo);
-    printf("\nDigite o nome do autor:");
+    //printf("\nDigite o título do livro: ");
+    //scanf("%c ",&livros.Titulo);
+    printf("\nLivro adicionado com sucesso!\n");
+    printf("Título: %s", livros.Titulo);
+    printf("Ano: %d\n", livros.AnoDePublicacao);
+    /*printf("\nDigite o nome do autor:");
     scanf("%c ",&livros.Autor);
     printf("\nDigite o ano de publicação:");
     scanf("%d ",&livros.AnoDePublicacao);
     printf("\nDigite o número de páginas:");
     scanf("%d ",&livros.NumeroDePaginas);
 
-    printf("\nTitulo do livro: %s", livros.Titulo);
+    printf("\nTitulo do livro: %s", livros.Titulo);*/
     printf("\nLivro adicionado com sucesso!");
 }
 
