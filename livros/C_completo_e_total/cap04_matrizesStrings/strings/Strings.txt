@@ -1,0 +1,13 @@
+C suporta uma ampla gama  de funções de manipulação de strings, As mais comuns são:
+
+Nome 				        Função
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+STRCPY(S1, S2)			    Copia s2 em s1.
+STRCAT(S1, S2)			    Concatena s2 ao final de s1.
+STRLEN(S1)			        Retorna o tamanho de s1.
+STRCMP(S1, S2)			    Retorna 0 se s1 e s2 são iguais; menor que 0 se s1 < s2;
+STRCHR(S1, CH) 			    Retorna um ponteiro para a primeira ocorrencia de ch em s1.
+STRSTR(S1, S2)			    Retorna um ponteiro para a primeira ocorrencia de s2 em s1.
+
+
+
