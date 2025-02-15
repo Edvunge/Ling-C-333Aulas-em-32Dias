@@ -1,0 +1,89 @@
+
+
+
+
+PROJETOS PEQUENOS para praticar C  
+
+-
+-
+-
+
+### 📌 Projetos Iniciantes (Fundamentos)  
+🔹  Calculadora Simples  
+➡️ Operações básicas (+, -, *, /) com entrada do usuário.  
+
+🔹  Conversor de Temperatura  
+➡️ Converte entre Celsius, Fahrenheit e Kelvin.  
+
+🔹  Jogo de Adivinhação  
+➡️ O programa escolhe um número aleatório e o usuário tenta adivinhar.  
+
+🔹  Manipulação de Strings  
+➡️ Reverter string, contar caracteres, verificar palíndromos.  
+
+🔹  Gerador de Tabuada  
+➡️ Usuário informa um número e o programa exibe a tabuada dele.  
+
+🔹  Simulador de Dados  
+➡️ Simula o lançamento de um dado de 6 faces e exibe o resultado.  
+
+---
+
+### 📌 Projetos Intermediários (Ponteiros, Structs, Arquivos)  
+🔹  Agenda de Contatos  
+➡️ Usa struct para armazenar nome, telefone e e-mail e permite buscar/editar.  
+
+🔹  Sistema de Notas Escolares  
+➡️ Cadastro de alunos e cálculo de média com structs e arquivos.  
+
+🔹  Jogo da Velha (Tic-Tac-Toe)  
+➡️ Implementação no terminal com matriz 3x3.  
+
+🔹  Gerenciador de Tarefas (To-Do List)  
+➡️ Usuário adiciona, lista e remove tarefas. Pode salvar os dados em um arquivo.  
+
+🔹  Conversor de Bases Numéricas  
+➡️ Converte números entre binário, decimal e hexadecimal.  
+
+🔹  Sistema de Login Simples  
+➡️ Cadastro e autenticação de usuários com armazenamento de dados em arquivo.  
+
+---
+
+### 📌 Projetos Avançados (Estruturas de Dados, Threads, Algoritmos)  
+🔹  Simulador de Caixa Eletrônico (ATM)  
+➡️ Sistema com saldo, saque, depósito e senha de segurança.  
+
+🔹  Ordenação de Arquivo CSV 
+➡️ Lê um arquivo CSV e ordena os dados por nome, idade ou outro critério.  
+
+🔹  Lista Encadeada para Gerenciar Produtos  
+➡️ Cadastro, busca e remoção de produtos usando listas encadeadas.  
+
+🔹 Jogo de Snake (Cobrinha) no Terminal  
+➡️ Uso da biblioteca ncurses.h para movimentação da cobra.  
+
+🔹  Gerador de Senhas Aleatórias  
+➡️ Cria senhas seguras com letras, números e símbolos.  
+
+🔹  Sistema de Reservas de Hotel  
+➡️ Usa structs e manipulação de arquivos para gerenciar reservas.  
+
+🔹  Multithreading com Produtor-Consumidor  
+➡️ Simula uma fila de processos usando pthread.h.  
+
+-
+-
+-
+
+Todos esses projetos reforçam diferentes aspectos da linguagem C 
+e te preparam para desafios maiores. Qual desses você quer começar? 🚀
+
+
+
+
+
+
+
+
+

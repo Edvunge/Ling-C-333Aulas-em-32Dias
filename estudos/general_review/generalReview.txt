@@ -1,0 +1,109 @@
+
+
+
+
+C LANGUAGE ROADMAP
+
+-
+-
+-
+
+
+## * - * - * - * - * - * - **=** 📌 Roadmap para Aprender C  
+
+###  1️⃣ Fundamentos Básicos  
+✅  Configuração do Ambiente  
+- Instalar um compilador (GCC, Clang, MSVC)  
+- Escolher um editor/IDE (VS Code, Code::Blocks, CLion)  
+
+✅  Sintaxe Básica  
+- Estrutura de um programa em C (#include, main())  
+- Tipos de dados primitivos (int, float, char, double)  
+- Variáveis e constantes (const, #define)  
+- Entrada e saída (printf, scanf)  
+
+✅  Operadores e Expressões  
+- Aritméticos (+, -, *, /, %)  
+- Relacionais (==, !=, >, <)  
+- Lógicos (&&, ||, !)  
+- Bitwise (&, |, ^, ~, <<, >>)  
+
+✅  Controle de Fluxo  
+- Condicionais (if, else, switch-case)  
+- Laços (for, while, do-while)  
+
+---
+
+### 2️⃣ Estruturas de Dados e Funções 
+✅  Funções  
+- Declaração e chamada  
+- Passagem de parâmetros (por valor e por referência)  
+- Escopo de variáveis (local vs global)  
+- Funções recursivas  
+
+✅  Arrays e Strings  
+- Arrays unidimensionais e multidimensionais  
+- Strings (char[], gets, puts, strcpy, strlen)  
+
+✅  Ponteiros  
+- Conceito de endereço e referência  
+- Operadores * (desreferência) e & (endereço)  
+- Ponteiros e Arrays  
+- Ponteiros e Strings  
+- Ponteiros para Funções  
+
+✅  Structs e Unions  
+- Declaração e uso de struct  
+- Ponteiros para struct  
+- typedef e enum  
+- union (uso eficiente de memória)  
+
+---
+
+### 3️⃣ Manipulação de Memória  
+✅  Alocação Dinâmica  
+- malloc, calloc, realloc, free  
+- Ponteiros duplos (char**, int**)  
+
+✅  Manipulação de Arquivos  
+- Modos de abertura (r, w, a, rb, wb)  
+- Leitura e escrita (fopen, fclose, fscanf, fprintf, fread, fwrite)  
+- Manipulação de arquivos binários  
+
+---
+
+### 4️⃣ Estruturas de Dados Avançadas
+✅  Listas Encadeadas  
+- Lista simplesmente encadeada  
+- Lista duplamente encadeada  
+- Operações básicas (inserção, remoção, busca)  
+
+✅  Pilhas e Filas  
+- Implementação com Arrays e Ponteiros  
+- Uso de struct para representar pilhas e filas  
+
+✅  Árvores  
+- Árvores Binárias  
+- Percursos (pré-ordem, in-ordem, pós-ordem)  
+- Árvores Balanceadas (AVL)  
+
+---
+
+### 5️⃣ Tópicos Avançados
+✅  Threads e Concorrência  
+- Biblioteca pthread.h  
+- Sincronização com mutex e semaphores  
+
+✅  Compilação e Otimização  
+- Makefile e gcc flags  
+- Debugging com gdb e valgrind  
+
+✅  Desenvolvimento de Projetos Reais  
+- Criar um interpretador simples  
+- Desenvolver um sistema de CRUD  
+- Criar um jogo simples (ex: Snake em terminal)  
+
+-
+-
+-
+-
