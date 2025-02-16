@@ -1,0 +1,41 @@
+### **Enunciado do Exercício: Simulador de Caixa Eletrônico  
+
+Desenvolva um programa em C que simule um **caixa eletrônico**, 
+permitindo que o usuário faça depósitos, saques e consulte o saldo de sua conta. 
+O programa deve utilizar **`for`**, **`while`** e **`do-while`** da seguinte forma:  
+
+---
+
+### **Regras do Programa:**  
+
+1. **Saldo Inicial:**  
+   - O usuário começa com um saldo inicial definido no programa.  
+
+2. **Exibição do Menu (Usando `do-while`)**  
+   - O programa deve exibir um menu com as seguintes opções:
+     1. Depositar dinheiro  
+     2. Sacar dinheiro  
+     3. Consultar saldo  
+     4. Sair  
+   - O menu deve continuar aparecendo **até que o usuário escolha a opção de sair**.  
+
+3. **Depósito de Dinheiro (Usando `for`)**  
+   - O usuário pode fazer **até 3 depósitos seguidos** antes de voltar ao menu principal.  
+   - Se o usuário tentar fazer mais de 3 depósitos seguidos, uma mensagem de limite atingido deve ser exibida.  
+
+4. **Saque de Dinheiro (Usando `while`)**  
+   - O usuário pode sacar um valor do saldo, desde que tenha dinheiro suficiente.  
+   - Se o usuário tentar sacar um valor maior do que o saldo, o programa deve pedir que ele insira um valor válido.  
+   - O loop deve continuar até que um valor correto seja inserido.  
+
+5. **Consulta de Saldo:**  
+   - Exibe o saldo atual da conta.  
+
+6. **Finalização do Programa:**  
+   - O programa encerra quando o usuário escolhe a opção **4 (Sair)**.  
+
+-
+-
+-
+
+

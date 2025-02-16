@@ -1,0 +1,33 @@
+### **Enunciado do Exercício: 
+    Sistema de Classificação de Notas e Mensagens Personalizadas**  
+
+Você deve desenvolver um programa em C que ajude 
+na avaliação de um aluno com base em sua nota final. 
+O programa deve seguir as seguintes regras:  
+
+1.   Entrada de Dados:  
+   - O usuário deve inserir a nota final do aluno (um número de 0 a 100).  
+   - O usuário também deve escolher um tipo de mensagem personalizada (digite um número de 1 a 3).  
+
+2. **Processamento e Decisão:  
+   - Se a nota for **maior ou igual a 90, o aluno recebe conceito **A**.  
+   - Se a nota for **entre 80 e 89**, recebe conceito **B**.  
+   - Se a nota for **entre 70 e 79**, recebe conceito **C**.  
+   - Se a nota for **entre 60 e 69**, recebe conceito **D**.  
+   - Se a nota for **menor que 60**, recebe conceito **F** (reprovado).  
+
+3. **Escolha da Mensagem Personalizada (Usando switch-case)**  
+   - O usuário pode escolher um número de 1 a 3 para exibir uma mensagem de incentivo ao aluno, dependendo da nota obtida.  
+   - Exemplo:
+     - **Opção 1:** Uma mensagem genérica de motivação.  
+     - **Opção 2:** Uma dica de estudo para melhorar.  
+     - **Opção 3:** Um elogio especial para alunos que foram bem.  
+
+4. Saída do Programa:  
+   - O programa deve exibir a nota do aluno, o conceito obtido 
+        e a mensagem personalizada escolhida.  
+
+-
+-
+-
+
