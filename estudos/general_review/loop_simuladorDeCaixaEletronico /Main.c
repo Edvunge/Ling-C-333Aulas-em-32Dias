@@ -16,8 +16,17 @@ int main(void) {
 
 
                 switch (escolha) {
-                    case 1:
-                        printf("1. Depositar Dinheiro...\n");
+                    case 1: // depositar dinheiro
+/*
+
+3. Depósito de Dinheiro (Usando for)  
+- O usuário pode fazer até 3 depósitos seguidos antes de voltar ao menu principal.  
+- Se o usuário tentar fazer mais de 3 depósitos seguidos, 
+    uma mensagem de limite atingido deve ser exibida. 
+
+*/                  
+                    
+
                     break;
                     case 2:
                         printf("2. Sacar Dinheiro...\n");

@@ -22,7 +22,7 @@ O programa deve utilizar for, while e do-while da seguinte forma:
    - O menu deve continuar aparecendo até que o usuário escolha a opção de sair.  
 
 3. Depósito de Dinheiro (Usando for)  
-   - O usuário pode fazer até 3 depósitos seguidos** antes de voltar ao menu principal.  
+   - O usuário pode fazer até 3 depósitos seguidos antes de voltar ao menu principal.  
    - Se o usuário tentar fazer mais de 3 depósitos seguidos, 
       uma mensagem de limite atingido deve ser exibida.  
 
