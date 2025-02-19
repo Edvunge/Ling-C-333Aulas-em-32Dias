@@ -4,7 +4,7 @@
 int main(void) {
     int i, j, n; 
     
-    printf("qual o num de ramos: "); 
+    printf("Qual o num de ramo: "); 
     scanf("%d", &n);
 
     for(i = 1; i <= n; i++) { 
