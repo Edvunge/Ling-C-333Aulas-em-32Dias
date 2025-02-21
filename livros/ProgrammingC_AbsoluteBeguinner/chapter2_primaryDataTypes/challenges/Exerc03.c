@@ -25,12 +25,5 @@ int main(void) {
     } else if (hours >= 0 && hours <= 5) {
         printf("\nGood Morning %s\n",name);
     }
-    /*
-    good morning
-    good afternoon
-    good evening 
-    good morning
-    */
-    
     return (0);
 }

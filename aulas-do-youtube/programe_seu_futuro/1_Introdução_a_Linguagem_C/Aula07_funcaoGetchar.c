@@ -10,8 +10,9 @@ int main(void){
     char letra;
 
     printf("Digite uma letra: ");
-    scanf("%c", &letra);
+    letra = getchar();
 
+    printf("Caracter lido: %c\n", letra);
     return (0);
 }
 
