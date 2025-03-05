@@ -1,0 +1,31 @@
+1. Crie uma estrutura chamada "Aluno" com o nome dos membros, 
+idade e notas totais. 
+Escreva um programa em C para inserir dados de dois alunos, 
+exibir suas informações e encontrar a média das notas totais.
+
+
+
+
+2. Defina uma estrutura chamada Time com membros horas, minutos e segundos. 
+Escreva um programa em C para inserir dois horários, 
+adicione-os e exiba o resultado no formato de hora apropriado.
+
+
+
+
+3. Crie uma estrutura chamada Book para armazenar detalhes do livro como título, 
+autor e preço. Escreva um programa em C para inserir detalhes de três livros, 
+encontrar os livros mais caros e os de menor preço e exibir suas informações.
+
+
+
+
+4. Defina uma estrutura chamada Circle para representar um círculo com um raio. 
+Escreva um programa em C para calcular a área e o perímetro de dois círculos 
+e exibir os resultados.
+
+
+5. Crie uma estrutura chamada "Employee" para armazenar detalhes do funcionário, 
+como ID do funcionário, nome e salário. 
+Escreva um programa para inserir dados de três funcionários, 
+encontrar o funcionário com maior salário e exibir suas informações.
