@@ -1,0 +1,19 @@
+
+
+section1 Bytes, números e caracteres
+section2 Os tipos int e char
+section3 strings_e_cadeias_de_caracteres 
+section4 manipulacao_de_strings 
+section5 entrada_e_saida 
+section6 enderecos_e_ponteiros 
+section7 registros_e_structs 
+section8 alocacao_dinamica_de_memoria 
+section9 leitura_de_linhas_de_texto 
+section10 numeros_aleatorios 
+section11 precedencia_entre_operadores 
+section12 bibliotecas_de_funcoes 
+section13 tabela_ASCII 
+section14 unicode_e_UTF-8 
+section15 compilacao_e_depuracao 
+section16 pre-processamento 
+section17 ferramentas_e_utilitarios
