@@ -1,0 +1,57 @@
+NOTAS DE AULA
+
+Aula 01 - MAC110-1s-2013� - Informa��es gerais
+
+Aula 02 - MSC elementar
+
+Aula03 - MSC condicional
+
+Aula03 - MSC linguagem de m�quina
+
+Aula04 - Introdu��o ao C
+
+Aula05 - Mais C e repeti��es
+
+Aula06 - Mais exemplos de repeti��es
+
+Aula07 - Mais problemas com inteiros
+
+Aula08 - Compara��es simples e compara��es compostas
+
+Aula09 - Mais detalhes do C e boas regras de programa��o
+
+Aula10 - Os comandos for e do while
+
+Aula11 - Repeti��es encaixadas
+
+Aula12 - Vari�veis e valores reais
+
+Aula13 - Somas de s�ries
+
+Aula14 � Fun��es e estrutura de blocos
+
+Aula15 - Vari�veis indexadas vetores
+
+Aula16 - Fun��es e vetores
+
+Aula17 - Vari�veis indexadas de v�rios �ndices
+
+Aula18 - Algor�tmos b�sicos de busca e classifica��o
+
+Aula19 - Char e strings
+
+Aula20 - Express�es l�gicas - operadores - base bin�ria - operadores de bits
+
+Aula21 - Algoritmos e fun��es recursivas
+
+
+
+
+
+
+
+
+
+mkdir aula01_MAC110-1s-2013_Informaes_gerais aula02_MSC_elementar aula03_MSC_condicional aula03_MSC_linguagem_de_maquina aula04_Introducao_ao_C aula05_Mais_C_e_repeticoes aula06_Mais_exemplos_de_repeticoes aula07_Mais_problemas_com_inteiros aula08_Comparacoes_simples_e_comparacoes_compostas aula09_Mais_detalhes_do_C_e_boas_regras_de_programacao aula10_Os_comandos_for_e_do_while aula11_Repeticoes_encaixadas aula12_Variaveis_e_valores_reais aula13_Somas_de_series aula14_Funcoes_e_estrutura_de_blocos aula15_Variaveis_indexadas_vetores aula16_Funcoes_e_vetores aula17_Variaveis_indexadas_de_varios_indices aula18_Algoritmos_basicos_de_busca_e_classificacao aula19_Char_e_strings aula20_Expressoes_logicas_e_operadores aula21_Algoritmos_e_funcoes_recursivas
+
+
