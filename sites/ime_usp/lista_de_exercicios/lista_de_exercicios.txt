@@ -1,0 +1,20 @@
+LISTAS DE EXERCÍCIOS
+INTRODUÇÃO À COMPUTAÇÃO
+Departamento de Ciência da Computação
+
+IME-USP     2005
+
+Exercícios com Inteiros
+Exercícios com Repetições Encaixadas
+Exercícios com Reais
+Exercícios com Funções - Parte I
+Exercícios com Funções - Parte II
+Exercícios com Vetores
+Exercícios com Matrizes
+Exercícios com Funções - Parte III
+Exercícios Complementares
+Sobre estas listas
+
+
+
+
