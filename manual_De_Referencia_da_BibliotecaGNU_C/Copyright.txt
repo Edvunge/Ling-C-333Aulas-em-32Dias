@@ -1,0 +1,19 @@
+Este é o Manual de Referência da Biblioteca GNU C, para a versão 2.38.
+
+Copyright © 1993-2023 Free Software Foundation, Inc.
+
+É concedida permissão para copiar, distribuir e/ou modificar este documento sob 
+os termos da Licença de Documentação Livre GNU, Versão 1.3 ou qualquer versão posterior 
+publicada pela Free Software Foundation; com as Secções Invariantes 
+a serem "Free Software Needs Free Documentation" e "GNU Lesser General Public License", 
+os textos da Capa Frontal a serem "A GNU Manual", e com os Textos da Capa Traseira como em (a) abaixo. 
+Uma cópia da licença está incluída na secção intitulada "Licença de Documentação Livre GNU".
+
+(a) O texto de contracapa da FSF é: "Você tem a liberdade de copiar e modificar este manual GNU. 
+A compra de cópias da FSF apoia-a no desenvolvimento do GNU e na promoção da liberdade de software."
+
+
+
+
+
+
