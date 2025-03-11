@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+
+    5 >= 4; // evaluates to 1
+    4 >= 5; // evaluates to 0
+    4 >= 4; // evaluates to 1
+
+    return (0);
+}
+
+
