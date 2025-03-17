@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Site</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <textarea id="markdown" rows="10" cols="50"># Olá, Mundo!</textarea>
+    <div id="output"></div>
+
+    <script>
+        document.getElementById('markdown').addEventListener('input', function() {
+            document.getElementById('output').innerHTML = marked.parse(this.value);
+        });
+    </script>
+</body>
+</html>
