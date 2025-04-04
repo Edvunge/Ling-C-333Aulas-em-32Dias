@@ -1,9 +1,0 @@
-Links:
-
-Arquivos do Game Allegro com C:
-+ https://terminalroot.com.br/2022/12/aprenda-a-criar-jogos-com-allegro-c-cpp-no-windows-e-linux.html
-
-Alternativas:
-+ CSFML: https://terminalroot.com.br/2023/11/instale-o-csfml-o-sfml-para-linguagem-c.html
-+ SDL2: https://terminalroot.com.br/2023/01/como-instalar-o-sdl2-no-windows-e-linux-para-criar-jogos-c-cpp-e-primeiros-passos.html
-+ Raylib: https://terminalroot.com.br/2022/11/crie-jogos-para-windows-linux-e-web-com-raylib-c-cpp.html

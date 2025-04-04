@@ -3,7 +3,7 @@
 
 /*
 1. Faça um programa em C que imprima o seu nome.
-*/
+*/ 
 
 int main(void){
     char nome[25];
