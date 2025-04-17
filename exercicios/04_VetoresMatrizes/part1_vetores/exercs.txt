@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+9. Crie um programa que l ˆe 6 valores inteiros pares e, em seguida, mostre na tela os valores
+lidos na ordem inversa.
+
+10. Fac ̧ a um programa para ler a nota da prova de 15 alunos e armazene num vetor, calcule
+e imprima a m  ́edia geral.
+
+11. Fac ̧ a um programa que preencha um vetor com 10 n  ́umeros reais, calcule e mostre a
+quantidade de n  ́umeros negativos e a soma dos n  ́umeros positivos desse vetor.
+
+12. Fazer um programa para ler 5 valores e, em seguida, mostrar todos os valores lidos
+juntamente com o maior, o menor e a m  ́edia dos valores.
+
+13. Fazer um programa para ler 5 valores e, em seguida, mostrar a posic ̧  ̃ao onde se encon-
+tram o maior e o menor valor.
