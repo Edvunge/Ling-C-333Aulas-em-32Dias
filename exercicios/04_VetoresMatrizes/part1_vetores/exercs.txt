@@ -5,7 +5,7 @@
 
 
 
-9. Crie um programa que l ˆe 6 valores inteiros pares e, em seguida, mostre na tela os valores
+9. Crie um programa que le 6 valores inteiros pares e, em seguida, mostre na tela os valores
 lidos na ordem inversa.
 
 10. Fac ̧ a um programa para ler a nota da prova de 15 alunos e armazene num vetor, calcule
