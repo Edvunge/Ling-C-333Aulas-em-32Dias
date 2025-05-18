@@ -28,12 +28,26 @@ Valide as entradas (números de alunos entre 1 e 50, notas entre 0.0 e 10.0).
 
 Utilize laços (for/while) para processar o vetor. 
 */
+//float calcularMedia(float notas[], int tamanho);
 
 int main(void) {
 
-    float notas[50];
+    //float notas_alunos[50];
+    //int numrs_alunos;
+    
 
     return (0);
+}
+
+float calcularMedia(float notas[], int tamanho) {
+    int media = 0, soma = 0;
+
+    for (int i = 0; i < 10; i++) {
+        soma += i;
+    }
+    
+    media = soma/2;
+    printf("Media: %d\n", media);
 }
 
 /*
