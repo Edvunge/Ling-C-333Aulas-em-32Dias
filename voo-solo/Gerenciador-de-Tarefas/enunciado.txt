@@ -1,0 +1,23 @@
+
+### **2. Gerenciador de Tarefas (To-Do List)**
+**Descrição:**
+Desenvolva um programa que permita ao usuário gerenciar uma lista de tarefas, com opções para adicionar, remover, marcar como concluída e visualizar tarefas.
+
+**Requisitos:**
+1. **Estrutura de Dados:**
+   - Cada tarefa deve ter:
+     - Descrição (string).
+     - Prioridade (baixa, média, alta).
+     - Status (pendente/concluída).
+
+2. **Funcionalidades:**
+   - **Adicionar Tarefa:** Inserir nova tarefa com descrição e prioridade.
+   - **Listar Tarefas:** Mostrar todas, filtrar por prioridade ou status.
+   - **Marcar como Concluída:** Alterar o status de uma tarefa.
+   - **Remover Tarefa:** Excluir uma tarefa da lista.
+
+3. **Persistência (Opcional):**
+   - Salvar e carregar tarefas de um arquivo `.txt` ou binário.
+
+4. **Interface:**
+   - Menu interativo com numeração ou teclas de atalho (ex.: `1-Adicionar, 2-Listar`).

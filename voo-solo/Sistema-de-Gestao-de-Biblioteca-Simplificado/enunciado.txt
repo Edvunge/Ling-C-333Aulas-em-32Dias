@@ -1,0 +1,53 @@
+
+Enunciado do Mini-Projeto em Linguagem C
+
+Título: Sistema de Gestão de Biblioteca Simplificado
+
+Descrição:
+Desenvolva um programa em C que permita gerir um pequeno acervo de livros de uma biblioteca. O sistema deve oferecer funcionalidades básicas, como adicionar novos livros, listar todos os livros disponíveis, buscar um livro por título ou autor e remover um livro do acervo.
+
+Requisitos Detalhados:
+
+1. Estrutura de Dados:
+   - Cada livro deve ser representado por uma estrutura (`struct`) contendo os seguintes campos:
+     - Título (string)
+     - Autor (string)
+     - Ano de publicação (inteiro)
+     - Número de identificação único (ID) (inteiro)
+
+2. Funcionalidades Obrigatórias:
+   - Adicionar Livro:
+     - O usuário deve poder inserir os dados de um novo livro (título, autor, ano e ID).
+     - O programa deve verificar se o ID já existe antes de adicionar.
+   - Listar Todos os Livros:
+     - Mostrar na tela todos os livros cadastrados, exibindo todos os campos de forma organizada.
+   - Buscar Livro:
+     - Permitir buscar um livro por **título** ou **autor** (o usuário deve escolher a opção).
+     - Exibir todos os livros que correspondem à busca.
+   - Remover Livro:
+     - Permitir a remoção de um livro com base no seu ID.
+     - Informar se o livro foi removido com sucesso ou se não foi encontrado.
+
+3. Interface do Usuário:
+   - O programa deve apresentar um menu interativo no terminal, permitindo que o usuário escolha entre as opções acima.
+   - O menu deve ser exibido em loop até que o usuário decida sair do programa.
+
+4. Validações:
+   - Não permitir IDs duplicados.
+   - Tratar entradas inválidas (ex.: ano negativo, campos vazios).
+
+5. Persistência de Dados (Opcional - para aumentar o desafio):
+   - Salvar os dados dos livros em um arquivo `.txt` ao fechar o programa.
+   - Carregar os dados do arquivo ao iniciar o programa.
+
+Observações:
+- Utilize alocação dinâmica (`malloc`, `free`) para armazenar os livros.
+- Organize o código em funções modulares (ex.: `adicionar_livro()`, `listar_livros()`, etc.).
+- Documente o código com comentários explicativos.
+
+Entrega:
+- O projeto deve ser entregue como um único arquivo `.c` ou um repositório no GitHub (se preferir).
+
+Dica: Pense em como estruturar o programa antes de começar a codificar, planeje as funções necessárias e como os dados serão armazenados.
+
+

@@ -1,0 +1,28 @@
+
+### **1. Jogo da Forca (Hangman)**  
+**Descrição:**  
+Implemente o clássico jogo da forca em C, onde o jogador tenta adivinhar uma palavra oculta, letra por letra, antes de cometer muitos erros.  
+
+**Requisitos:**  
+1. **Inicialização:**  
+   - O programa deve carregar uma lista de palavras pré-definidas (pode ser um array de strings).  
+   - Selecionar aleatoriamente uma palavra para ser adivinhada.  
+
+2. **Mecânica do Jogo:**  
+   - Exibir o estado atual da palavra oculta (ex.: `_ _ _ _ _` para "casa").  
+   - Permitir que o jogador insira uma letra.  
+   - Verificar se a letra existe na palavra:  
+     - Se sim, revelar todas as ocorrências dela.  
+     - Se não, incrementar o número de erros.  
+   - Limitar o número de tentativas erradas (ex.: 6 erros = fim de jogo).  
+
+3. **Interface:**  
+   - Mostrar letras já tentadas.  
+   - Exibir um "boneco da forca" simples (ASCII art) conforme os erros aumentam.  
+   - Parabenizar o jogador se vencer ou revelar a palavra se perder.  
+
+4. **Extras (Opcionais):**  
+   - Dificuldades (número de erros permitidos).  
+   - Pontuação baseada no número de tentativas.  
+   - Carregar palavras de um arquivo `.txt`.  
+
