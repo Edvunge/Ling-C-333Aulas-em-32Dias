@@ -1,0 +1,57 @@
+
+
+✅ Etapa 1: Estrutura do Curso de C – Rumo à Maestria
+
+Aqui está um plano geral dividido em módulos. A cada "aula", vamos interagir conforme o modelo socrático:
+
+
+
+
+📘 Módulo 1: Fundamentos da Linguagem C
+
+1. O que é a linguagem C e por que ela importa?
+2. Instalação do compilador e configuração do ambiente
+3. Estrutura de um programa em C
+4. Tipos de dados, variáveis e operadores
+5. Entrada e saída com `scanf` e `printf`
+6. Estruturas de controle: `if`, `switch`, laços `for`, `while`
+7. Funções: definição, parâmetros e escopo
+
+
+
+📗 Módulo 2: Memória e Ponteiros – O C de Verdade
+
+8. Arrays e strings
+9. Ponteiros e aritmética de ponteiros
+10. Ponteiros e arrays
+11. Alocação dinâmica de memória com `malloc`, `calloc`, `free`
+12. Passagem de ponteiros para funções
+
+
+
+📙 Módulo 3: Estruturas de Dados e Arquivos
+
+13. Estruturas (`struct`) e uniões
+14. Listas encadeadas simples e duplas
+15. Pilhas e filas
+16. Manipulação de arquivos com `fopen`, `fread`, `fwrite`, `fprintf`, etc.
+
+
+
+📕 Módulo 4: C Avançado e Sistemas
+
+17. Pré-processador (`#define`, `#ifdef`, `#include`)
+18. Modularização de código com arquivos `.h` e `.c`
+19. Compilação, linking, makefiles
+20. Gerenciamento de memória e debugging (valgrind, gdb)
+21. Programação de baixo nível e acesso a hardware
+22. Introdução à programação concorrente com threads em C
+
+
+
+
+🎯 Módulo Final: Projeto Capstone + Desafio Integrador
+
+23. Projeto final prático com uso de múltiplos conceitos
+24. Revisão e preparação para aplicações reais (contribuir para open source, criar bibliotecas, etc.)
+
