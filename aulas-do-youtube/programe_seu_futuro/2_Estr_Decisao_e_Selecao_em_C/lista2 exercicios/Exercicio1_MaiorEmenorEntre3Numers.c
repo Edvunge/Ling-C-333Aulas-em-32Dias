@@ -6,7 +6,10 @@
 */
 
 int main(void) {
-    int num, num2, num3;
+    
+    // Primeira Solução:
+
+    /*int num, num2, num3;
 
     printf("Digite tres numeros inteiros: ");
     scanf("%d%d%d", &num, &num2, &num3);
@@ -23,6 +26,37 @@ int main(void) {
         printf("\n Num3: %d - Num2: %d - Num: %d ",num3 ,num2, num);
     } else if (num3 > num2 && num3 > num || num > num2){
         printf("\n Num3: %d - Num2: %d - Num: %d ",num3 ,num, num2);
-    } 
+    } */
+   int a, b, c, menor, maior;
+
+   printf("Digite tres valores: ");
+   scanf("%d%d%d", &a ,&b ,&c);
+
+    // Segunda Solução:
+    if(a < b){
+        if(a < c)
+            menor = a;
+        else 
+            menor = c;    
+    } else {
+        if(b < c)
+            menor = b;
+        else 
+        menor = c;
+    }
+
+    if(a > b){
+        if(a > c)
+            maior = a;
+        else 
+            maior = c;    
+    } else {
+        if(b > c)
+            maior = b;
+        else 
+        maior = c;
+    }
+
+    printf("Primera versao\tMenor: %d\tMaior: %d\n", menor, maior);
     return (0);
 }
