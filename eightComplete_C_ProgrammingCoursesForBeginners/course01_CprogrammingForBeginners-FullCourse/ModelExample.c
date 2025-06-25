@@ -1,8 +1,14 @@
 #include <stdio.h>
 
 int main(void) {
-    int speed = 20;
-    int time = 7;
+    int speed = 0;
+    int time = 0;
+
+    printf("Speed: "); // Input processing
+    scanf("%d", &speed); // Output processing
+
+    printf("Time: ");
+    scanf("%d", &time);
 
     int distance = speed * time;
 
